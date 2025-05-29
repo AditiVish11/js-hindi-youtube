@@ -40,4 +40,29 @@ const heros =[ " shaktiman", "naagraj", "doga"]
  console.log(typeof scoreValue);
  console.log(typeof myFunction);
  
- 
+    
+
+  //**********************************Memory ************************ */
+
+  // Stack (Primitive) = copy milta hai , Heap ( Non Primitive)= reference milta hai   
+
+  let myYoutubename = "aditivishwakarmadotcom"
+
+  let anothername = myYoutubename
+  anothername = " chaiaurcode"
+
+  console.log( myYoutubename);
+  console.log(anothername);
+
+
+  let userOne = {
+    email: "user@gmail.com",
+    upi: " user@ybl"
+  }
+  
+  let userTwo = userOne
+
+  userTwo.email = " aditi@google.com"
+
+  console.log(userOne.email);
+  console.log(userTwo.email);
