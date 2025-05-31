@@ -52,4 +52,28 @@ const obj4 = {5: "a", 6: "b"}
   console.log(Object.entries(tinderUser)); // array ke andar array / key values ko array bna deta hai
 
   console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+  // course.courseInstructor
+
+  const { courseInstructor} = course
+  console.log(courseInstructor);
   
+
+//API
+
+// {
+//    " name": "aditi",
+//     "coursename": "js in hindi",
+//    " price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
